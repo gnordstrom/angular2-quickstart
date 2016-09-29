@@ -15,6 +15,7 @@ function isJsFile(path) {
   return path.slice(-3) == '.js';
 }
 
+
 function isSpecFile(path) {
   return /\.spec\.(.*\.)?js$/.test(path);
 }
